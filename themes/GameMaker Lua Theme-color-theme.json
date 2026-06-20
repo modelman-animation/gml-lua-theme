@@ -1,79 +1,80 @@
 {
-    "$schema": "vscode://schemas/color-theme",
     "name": "GameMaker Lua Theme",
     "colors": {
-        "editor.background": "#222222",
-        "editor.foreground": "#DCDCDC",
-        "editorLineNumber.foreground": "#858585",
-        "editor.selectionBackground": "#264F78",
-        "editor.inactiveSelectionBackground": "#3A3D4177"
+        "editor.background": "#222222"
     },
     "tokenColors": [
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#6A9955"
+                "foreground": "#5B995B"
             }
         },
         {
-            "scope": ["keyword", "keyword.control"],
+            "scope": ["keyword", "keyword.local"],
             "settings": {
-                "foreground": "#FF7B7B",
+                "foreground": "#FFB871",
                 "fontStyle": "bold"
             }
         },
         {
             "scope": ["constant.numeric", "number"],
             "settings": {
-                "foreground": "#B5CEA8"
+                "foreground": "#FF8080"
             }
         },
         {
             "scope": "string",
             "settings": {
-                "foreground": "#D69D85"
+                "foreground": "#FFFF00"
             }
         },
         {
             "scope": ["entity.name.function", "support.function"],
             "settings": {
-                "foreground": "#4ECDC4"
+                "foreground": "#FFB871"
             }
         },
         {
             "scope": "variable",
             "settings": {
-                "foreground": "#DCDCDC"
+                "foreground": "#B2B1FF"
             }
         },
         {
-            "scope": "storage",
+            "scope": "keyword.operator.lua",
             "settings": {
-                "foreground": "#C586C0"
-            }
-        },
-        {
-            "scope": "keyword.operator",
-            "settings": {
-                "foreground": "#D4D4D4"
+                "foreground": "#ffffff"
             }
         },
         {
             "scope": "variable.language",
             "settings": {
-                "foreground": "#569CD6"
+                "foreground": "#FF8080"
             }
         },
         {
             "scope": "constant.language",
             "settings": {
-                "foreground": "#569CD6"
+                "foreground": "#FF8080"
             }
         },
         {
             "scope": "entity.other.attribute.lua",
             "settings": {
-                "foreground": "#9CDCFE"
+                "foreground": "#FFF899"
+            }
+        },
+        {
+            "scope": "variable.other.lua",
+            "settings": {
+                "foreground": "#B2B1FF"
+            }
+        },
+        {
+            "scope": "variable.global.lua",
+            "settings": {
+                "foreground": "#FF7EFF"
             }
         }
     ]

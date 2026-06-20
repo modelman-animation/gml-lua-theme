@@ -2,7 +2,7 @@
   "name": "gml-lua-theme",
   "displayName": "GameMaker Lua Theme",
   "description": "GameMaker-inspired theme for Lua",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Modelman",
   "icon": "icon.png",
   "repository": {
