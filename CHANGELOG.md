@@ -2,6 +2,11 @@
 
 All notable changes to the "GameMaker Lua Theme" extension will be documented in this file.
 
+## [1.0.3] - 2026-06-20
+
+### Changed
+- Larger logo
+
 ## [1.0.2] - 2026-06-20
 
 ### Changed
