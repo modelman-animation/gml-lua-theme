@@ -1,0 +1,80 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "GameMaker Lua Theme",
+    "colors": {
+        "editor.background": "#222222",
+        "editor.foreground": "#DCDCDC",
+        "editorLineNumber.foreground": "#858585",
+        "editor.selectionBackground": "#264F78",
+        "editor.inactiveSelectionBackground": "#3A3D41"
+    },
+    "tokenColors": [
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#6A9955"
+            }
+        },
+        {
+            "scope": ["keyword", "keyword.control"],
+            "settings": {
+                "foreground": "#FF7B7B",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": ["constant.numeric", "number"],
+            "settings": {
+                "foreground": "#B5CEA8"
+            }
+        },
+        {
+            "scope": "string",
+            "settings": {
+                "foreground": "#D69D85"
+            }
+        },
+        {
+            "scope": ["entity.name.function", "support.function"],
+            "settings": {
+                "foreground": "#4ECDC4"
+            }
+        },
+        {
+            "scope": "variable",
+            "settings": {
+                "foreground": "#DCDCDC"
+            }
+        },
+        {
+            "scope": "storage",
+            "settings": {
+                "foreground": "#C586C0"
+            }
+        },
+        {
+            "scope": "keyword.operator",
+            "settings": {
+                "foreground": "#D4D4D4"
+            }
+        },
+        {
+            "scope": "variable.language",
+            "settings": {
+                "foreground": "#569CD6"
+            }
+        },
+        {
+            "scope": "constant.language",
+            "settings": {
+                "foreground": "#569CD6"
+            }
+        },
+        {
+            "scope": "entity.other.attribute.lua",
+            "settings": {
+                "foreground": "#9CDCFE"
+            }
+        }
+    ]
+}
